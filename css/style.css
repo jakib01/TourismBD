@@ -1,0 +1,298 @@
+
+
+/*=======================================================Nav Bar===================================================== */
+.navbar{background-color: #0B0B0B /*!important*/; border-color: transparent; border-radius: 0%;
+box-shadow: 0 0 50px 3px rgba(0,0,0,.90);}
+/** Default navbar **/
+.navbar-default .navbar-nav>li>a { padding-top: 25px; padding-bottom: 25px; min-height: 69px; color: #A4A4A4;}
+.navbar-default .navbar-nav > li > a:hover {color: #DDBE42;}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  color: #DDBE42;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: transparent;
+  color: #DDBE42;
+}
+.navbar-default .navbar-nav .open .dropdown-menu {
+  /*background-color: #060606 !important;*/
+  background-color: #797D7F;
+  box-shadow: 0 4px 2px -2px rgba(0,0,0,0.4);
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a{
+  color: white/*#585858*/ !important;
+  padding: 12px 12px 12px 12px !important;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  color: #DDBE42 !important;
+  background-color: transparent !important;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #DDBE42 !important;
+    background-color: transparent !important;
+  }
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  border-color: transparent;
+  background-color: transparent;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: transparent;
+
+}
+.navbar-form { padding-top: 10px !important;}
+.navbar-text { margin-top: 25px; }
+.navbar-default .navbar-text { color: #CBAF3B;}
+.navbar-default .navbar-brand {
+  font-size: 21px;
+  color: #CBAF3B;
+  margin-top: 10px;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #DDBE42;
+}
+/*=====================================================Nav Bar End====================================================== */
+
+
+
+
+
+
+/*======================================================== Slider ===================================================== */
+.col-12{
+	padding: -10px -20px -10px -20px;
+	margin: -10px -20px -10px -20px;
+	/*box-shadow: 0 0 20px 3px rgba(0,0,0,.50);*/
+
+}
+
+#searchForm {
+	position:absolute;
+  	top:50%;
+  
+}
+/*============================================================ Slider Ends =============================================== */
+
+
+
+/*============================================================ Blog ====================================================== */
+hr.style13 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+.photo1 img{
+	/*box-shadow: 5px 0px 0px 3px rgba(0,0,0,.20);*/
+  box-shadow: 0px 0px 0px 0px
+	border-radius: 5px;
+
+}
+
+.photo1 img:hover{
+
+	box-shadow: 0 0 5px 3px rgba(0, 140, 186,.95);
+}
+
+
+.row h1{
+	  /*color: #5cd6d6;*/
+    /*font-family: fantasy;*/
+    font:bolder;
+    text-shadow: 1px 1px 2px #000000;
+    text-align: center;
+}
+
+.row h2{
+    /*color: #5cd6d6;*/
+    /*font-family: fantasy;*/
+    font:bolder;
+    text-shadow: 1px 1px 1px #000000;
+    text-align: center;
+}
+.row .fnt{
+    color: red;
+    /*font-family: fantasy;*/
+    font:bolder;
+    text-shadow: 1px 1px 1px #000000;
+    text-align: left;
+}
+
+.blogimg  a{
+    border-radius: 8px;
+}
+/*============================================================ Blog ===================================================== */
+
+
+
+
+/*======================================================= Blog Photos ==================================================== */
+/*div.gallery {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 50px 3px rgba(0,0,0,.40);
+    /*border-radius: 30px;*/
+
+}*/
+
+
+.signup-page {
+  background: none repeat scroll 0 0 #70aecc4d;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #EEEEEE;
+  color: #020202;
+  padding: 30px;
+}
+.signup-page label {
+  font-weight: normal;
+}
+
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    /*border-radius: 30px;*/
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 10px 10px ;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*=================================================== Blog Photos End ==================================================== */
+
+
+
+
+/*======================================================== Footer ================================================== */
+
+footer.footer-section {
+    background: rgba(0, 0, 0, 0) url("https://images.pexels.com/photos/316902/pexels-photo-316902.jpeg?w=940&h=650&auto=compress&cs=tinysrgb") no-repeat scroll left top / cover;
+    padding: 60px 0 50px;
+}
+.bg-with-black {
+    position: relative;
+}
+.footer-top-section {
+    margin: 0 0 47px;
+}
+.single-fta > img {
+    margin: 0 0 7px;
+}
+.single-fta ul.fta-list {
+    list-style: outside none none;
+    padding-left: 0;
+}
+.single-fta ul.fta-list li, .single-fta ul.fta-list li a {
+    color: #e5e5e5;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 36px;
+}
+.single-fta ul.fta-list {
+    list-style: outside none none;
+    padding-left: 0;
+}
+.fta-title {
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin: 0 0 20px;
+}
+
+.fba-links {
+    text-align: right;
+}
+
+.fba-links ul li a {
+    color: #e5e5e5;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0;
+    margin-right: -10px;
+}
+.fba-links ul {
+    list-style: outside none none;
+    padding: 0;
+}
+.fba-links ul li {
+    display: inline-block;
+    margin-left: 28px;
+}
+.fba-copyright p {
+    color: #aaaaaa;
+    line-height: 30px;
+}
+
+/*================================================= Footer End ========================================================== */
+
+
+
+
+/*================================================ SignUP ========================================================== */
+
+    .signup-page{
+
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 14px;
+        border: 1px  #272222;
+        border-radius: 5px;
+        color: #020202;
+        box-shadow: 0 0 3px #191616bd;
+        width: 626px;
+        background-color: #4c484857;
+        height: 700px;
+
+    }
+   
+
+/*============================================== Signup end ======================================================== */
+
